@@ -28,3 +28,13 @@ SonarLint tìm thấy 9729 issues sau khi analyze 724 files
 ![](https://github.com/duchuy1412/juliet-test-suite/blob/master/Sonarqube.PNG "kết quả")
 
 ![](https://github.com/duchuy1412/juliet-test-suite/blob/master/sonartime.PNG "thời gian chạy")
+
+# So sánh PMD Java và SonarLint (Sonarqube)
+Với cùng 1 Test Suite mà nhóm chọn để thử nghiệm với 2 tool trên: **CWE23_Relative_Path_Traversal**
+![](/pmd.PNG "kết quả của PMD")
+
+![](/Sonarqube.PNG "Kết quả của SonarLint")
+
+PMD có thời gian chạy nhanh hơn, nhưng số issue tìm được lại ít hơn SonarLint (SonarLint cho kết quả 9729 issues, PMD cho 5878 kết quả)
+
+Vậy SonarLint được đánh giá cao hơn vì nó đã bao gồm các quy tắc có trong PMD
