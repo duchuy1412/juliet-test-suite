@@ -16,3 +16,15 @@ gradle build
 ```
 mvn compile
 ```
+# SonarLint (Sonarqube)
+
+Vì bộ test gồm rất nhiều file + điều kiện không đủ => nhóm chọn 1 CWE trong số 112 CWEs để chạy công cụ SonarLint
+
+CWE23_Relative_Path_Traversal bao gồm 724 files
+
+## Kết quả
+
+SonarLint tìm thấy 9729 issues sau khi analyze 724 files
+![](https://github.com/duchuy1412/juliet-test-suite/blob/master/Sonarqube.PNG "kết quả")
+
+![](https://github.com/duchuy1412/juliet-test-suite/blob/master/sonartime.PNG "thời gian chạy")
